@@ -12,13 +12,12 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #25282a;
-    background-image: url(assets/img/back.jpg);
+    background-image: url(assets/img/back.png);
     background-size: contain;
 }
 
 .slider {
     margin: auto;
-    height: 100vh;
     width: 100vw;
 }
 
@@ -29,7 +28,6 @@ body {
     align-items: start;
     overflow: hidden;
     margin: 1rem auto;
-    height: 35vw;
     width: 60vw;
 }
 
@@ -86,7 +84,6 @@ input[type="radio"]:nth-of-type(4):checked ~ .radio-wrapper label:nth-of-type(4)
 
 .slide-content {
     width: 400%;
-    height: 60vh;
     display: flex;
     justify-content: start;
     transition: margin-left 0.6s ease;
@@ -97,7 +94,7 @@ input[type="radio"]:nth-of-type(4):checked ~ .radio-wrapper label:nth-of-type(4)
 }
 
 .slide img {
-    height: 26vw;
+    height: 75%;
     width: 100%;
 }
 
@@ -125,7 +122,7 @@ input[type="radio"]:nth-of-type(4):checked ~ .radio-wrapper label:nth-of-type(4)
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 2rem;
     max-width: 80%;
     box-sizing: border-box;
     box-sizing: border-box;
@@ -143,9 +140,6 @@ input[type="radio"]:nth-of-type(4):checked ~ .slide-content .slide4 .text {
 
 
 @media screen and (min-width: 500px) and (max-width: 1023.9px){
-    .slider-wrapper{
-        height: 48vw;
-    }
 
     .text {
         bottom: 5%;
